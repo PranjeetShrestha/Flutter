@@ -63,37 +63,42 @@ class _MyHomePageState extends State<MyHomePage> {
           // the App.build method, and use it to set our appbar title.
           title: Text(widget.title),
         ),
-        body: Center(
-            child: Container(
-                width: 300,
-                child: Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    TextField(
-                      decoration: InputDecoration(
-
-                          prefixIcon: Icon(Icons.person),
-                          // prefixText: "Username:",
-                          focusedBorder: OutlineInputBorder(
-                            borderSide: BorderSide(
-                              color: Colors.deepOrange,
-                              width: 2,
-                            ),
-                          ),
-                          border: OutlineInputBorder()),
-                    ),
-                    Container(
-                      height: 10,
-                    ),
-                    TextField(
-                      decoration: InputDecoration(
-                          // focusedBorder: ,
-                          border: OutlineInputBorder(
-                        borderRadius: BorderRadius.circular(20),
-                      )),
-                    ),
-                  ],
-                )))
+        body: Container(
+          child: Text("Hello world"),
+        )
+        
+        
+        // Center(
+        //     child: Container(
+        //         width: 300,
+        //         child: Column(
+        //           mainAxisAlignment: MainAxisAlignment.center,
+        //           children: [
+        //             TextField(
+        //               decoration: InputDecoration(
+        //
+        //                   prefixIcon: Icon(Icons.person),
+        //                   // prefixText: "Username:",
+        //                   focusedBorder: OutlineInputBorder(
+        //                     borderSide: BorderSide(
+        //                       color: Colors.deepOrange,
+        //                       width: 2,
+        //                     ),
+        //                   ),
+        //                   border: OutlineInputBorder()),
+        //             ),
+        //             Container(
+        //               height: 10,
+        //             ),
+        //             TextField(
+        //               decoration: InputDecoration(
+        //                   // focusedBorder: ,
+        //                   border: OutlineInputBorder(
+        //                 borderRadius: BorderRadius.circular(20),
+        //               )),
+        //             ),
+        //           ],
+        //         )))
 
         // Center(
         //   child: Card(
